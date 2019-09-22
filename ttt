@@ -7,8 +7,7 @@ def display_board(board)
 end
 
 puts "Welcome to Tic Tac Toe"
-puts "Where would you like to go?" gets.strip
+puts "Where would you like to go?"
 input = gets.strip
 
-
-
+puts display_board(input)
